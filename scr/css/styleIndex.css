@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container .imagem {
+    max-width: 530px;
+    display: none;
+}
+
+.container .texto {
+    padding: 12px 30px;
+
+
+}
+
+.container .texto h2 {
+    font-size: 50px;
+    /* font-family: cursive; */
+    margin: 0px 5px;
+    padding: 5px 0 0 0;
+    color: #fff;
+    
+}
+
+.container .texto h2 span {
+    color: violet;
+    font-weight: bold;
+    
+}
+
+.container .historia {
+    justify-content: baseline;
+    font-size: small;
+    font-weight: bold;
+    max-width: 50%;
+    color: #94c89bfb;
+    text-align: justify;
+}
+
+.container .cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
+
+.container .cadastro [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: violet;
+    color:#415;
+    font-weight: bold;
+}
+
+.container .cadastro [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.container .cadastro input {
+    margin-top: 15px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.video-de-fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.video-de-fundo::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(169,95,199,0.5794489670868348) 52%, rgba(2,0,36,1) 100%);
+}

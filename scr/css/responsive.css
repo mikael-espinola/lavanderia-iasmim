@@ -1,0 +1,109 @@
+@media (max-width: 1220px) {
+    body {
+        background-color:adf4b6fb;
+        max-width: 100hw;
+        justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo {
+        width: 60%;
+        margin: 0px 45px;
+        padding: 0;
+    }
+
+    .header .menu {
+        justify-content: center;
+        font-size: 5px;
+        text-align: center;
+        padding: 20px 10px 0 0;
+    }
+
+    .video-de-fundo {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 35px;
+        flex-wrap: wrap;
+    }
+
+    .apresentacao {
+        margin: 15px 40px;
+        text-align: justify;
+    }
+    .historia2 {
+        margin: 0px 150px;
+        text-align: justify;
+    }
+
+    .production {
+        margin: 35px 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textProduction {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    #login {
+
+        display: none;
+
+    }
+
+    .header .menu {
+        justify-content: center;
+        font-size: 2px;
+        text-align: center;
+        padding: 20px 10px 0 0;
+        padding: 15px;
+    }
+
+    .container .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .texto h2 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .container .texto .historia {
+        text-align: justify;
+    }
+
+    .cadastro {
+        align-items: center;
+    }
+
+    .cadastro [type="Name"]{
+        width: 100%;
+    }
+    .cadastro [type="Submit"] {
+        width: 75%;
+    }
+
+    .apresentacao {
+        margin: 15px 40px;
+        text-align: justify;
+    }
+    .historia2 {
+        margin: 0px 150px;
+        text-align: justify;
+    }
+    
+}

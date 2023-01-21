@@ -1,0 +1,60 @@
+main {
+    margin: 0px 350px;
+}
+
+.cards {
+    /* margin: ; */
+}
+
+.produto {
+    float: left;
+    vertical-align: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px #ccc;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px 25px;
+    height: 300px;
+    width: 260px;
+
+    background-color: rgb(216, 180, 216);
+}
+
+.produto img {
+    width: 100px;
+    max-height: 120px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.produto-info {
+    padding: 10px;
+    height: 90px;
+    font-weight: bold;
+}
+
+.produto-info h4 {
+    font-size: 1.1em;
+    font-weight: 250;
+    margin: 0px;
+}
+
+.produto-preco {
+    float: right;
+    margin-right: 10px;
+}
+
+.preco-de {
+    text-decoration: line-through;
+    color: red;
+    font-size: 1em;
+}
+
+.preco-por {
+    color: rgb(197, 26, 7);
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.cards {
+    justify-content: center;
+}

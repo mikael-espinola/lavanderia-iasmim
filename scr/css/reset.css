@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
+
 }
 
 ul {
@@ -12,7 +14,6 @@ a {
     text-decoration: none;
 }
 body {
-    font-family: 'Poppins';
     background-color: #adf4b6fb;
 }
 

@@ -54,9 +54,14 @@
     .textProduction {
         text-align: center;
     }
+
+    .cards {
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     #login {
 
         display: none;

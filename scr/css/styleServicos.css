@@ -1,12 +1,14 @@
-main {
+/* /* main {
     margin: 0px 350px;
-}
+} */
 
-.cards {
-    /* margin: ; */
+/* main {
+    width: 100vw;
+    height: 100vh;
 }
 
 .produto {
+    justify-content: space-between;
     float: left;
     vertical-align: top;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -53,8 +55,100 @@ main {
     color: rgb(197, 26, 7);
     font-weight: bold;
     font-size: 1.7em;
+} */
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cards {
-    justify-content: center;
+main.cards {
+    display: flex;
+    padding: 32px;
+    max-height: 466px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(250, 140, 250, 0.053);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 456px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+
+main.cards section.card .icon {
+    width: 150px;
+    height: 155px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 400;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card span.preco-de {
+    text-decoration: line-through;
+}
+
+main.cards section.card span.preco-por {
+    color: red;
+    font-size: 100%;
+    font-weight: 600;
+
+}
+
+main.cards section.card span.preco-de{
+    font-weight: 350;
+}
+
+main.cards section.card button {
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 25%;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 800;
+
+    background: linear-gradient(to right, rgba(91, 5, 125, 0.579), rgba(189, 116, 217, 0.579));
+}
+
+main.cards section.card {
+    box-shadow: 20px 20px 50px -30px #8d54e9;
+}
+
+@media screen and (max-width: 830px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
 }
